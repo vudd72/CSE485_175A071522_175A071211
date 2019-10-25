@@ -1,0 +1,308 @@
+/* ================================
+========= .navbar-extend =========
+================================ */
+.navbar-extend{
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #024282;
+    /* border: 1px solid red; */
+}
+.navbar-extend .row{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: #024282;
+    /* border: 1px solid red; */
+}
+.navbar-extend .row .col-md-12{
+    background-color: #024282;
+    height: 35.5px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+.navbar-extend .row .col-md-12 .navbar{
+    position: relative;
+    background-color: #024282 !important;
+    height: 100%;
+    padding: 0px;
+}
+.navbar-extend .row .col-md-12 .navbar button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    color: #ffffff !important;
+    font-weight: 600;
+    margin: 0px;
+    background-color: #024282 !important;
+    visibility: hidden;
+    opacity: 0;
+}
+.navbar-extend .collapse{
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.navbar-extend .nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff !important;
+}
+.navbar-extend .nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-extend .text{
+    color: #fdb913 !important;
+    font-weight: 600;
+}
+.navbar-extend .text:hover{
+    text-decoration: none;
+}
+.navbar-extend .collapse ul{
+    width: 65%;
+    margin-left: 10px; 
+    justify-content: space-between;
+    /* border: 1px solid red;  */
+}
+/* ----------- menuLayer --------- */
+.navbar-extend #menuLayer{
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    display: none; /*da sua*/
+    top: 35px;
+    left: 0px;
+    background-color: #024282;
+}
+/* ------------------------- */
+.navbar-extend .row .right-layer{
+    position: absolute;
+    top: 0px;
+    left: 900px;
+    /* float: left; */
+    background-color: #024282;
+    /* border: 1px solid red; */
+    height: 100%;
+    padding: 0px;
+}
+.navbar-extend .row .right-layer .input-group{
+    /* border: 1px solid red; */
+    margin-right: 30px;
+}
+.navbar-extend .row .right-layer .form-control{
+    /* border: 1px solid red; */
+    border-radius: 0px;
+    background-color: #012B64;
+    height: 35px;
+    border: 0px;
+}
+.navbar-extend .row .right-layer .btn-secondary{
+    height: 35px;
+    background-color: #012B64; 
+    border: 0px;
+}
+.navbar-extend .row .right-layer input{
+    border: 0px !important;
+}
+.navbar-extend .row .right-layer .image img{
+    text-align: center;
+    padding-top: 7px;
+}
+/* ======= menu ====== */
+#bs-example-navbar-collapse-1{
+    z-index: 10;
+    background-color: #024282;
+}
+/* ================================
+========= .navbar-header =========
+================================ */
+.navbar-header{
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    /* border: 1px solid red; */
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.44);
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.44);
+}
+.navbar-header .btn-gnav::after{
+    content: '';
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 96;
+}
+.navbar-header .row{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.navbar-header .row .col-md-12{
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.navbar-header .row .col-md-12 .navbar{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.navbar-header .btn-gnav {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    line-height: 1;
+    margin: 0 0 0 -50px;
+    padding: 0;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 97;
+}
+.navbar-header .btn-gnav i{
+    position: absolute;
+    z-index: 97;
+    top: 3px;
+    left: 38px;
+    color: #024282;
+    font-size: 28px;
+    /* text-align: center; */
+}
+.navbar-header .btn-gnav::before{
+    content: '';
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: rgba(0,0,0,0.15) transparent transparent transparent;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    z-index: 95;
+} 
+.navbar-header .navbar-brand{
+    margin-left: 0px;
+    /* border: 1px solid red; */
+}
+.navbar-header .nav-item a.nav-link{
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 400;
+    color: black !important;
+}
+.navbar-header .nav-item .nav-link i{
+    color: #35699b;
+}
+.navbar-header .nav-item a.nav-link:hover{
+    color: #AA914D !important;
+}
+.navbar-header .nav-item a.nav-link:hover i{
+    color: #AA914D !important;
+}
+.navbar-header .navbar-collapse ul{
+    width: 100%;
+    justify-content: space-between;
+}
+/* ======= fix ======= */
+.btn:focus, .btn.focus {
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+button:focus{
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+/* ============ menu-bot-layer ======== */
+.navbar-header .menu-bot-layer{
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    top: 97px;
+    left: 0px;
+    /* border: 1px solid red; */
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-header .menu-bot-layer .row{
+    width: 96%;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color: rgba(4, 66, 127, 0.9);   
+}
+.navbar-header .menu-bot-layer .col-lg-3{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+.navbar-header .menu-bot-layer .col-lg-3 h5{
+    font-size: 18px;
+    line-height: 31px;
+    color: #fff;
+    font-weight: 400;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul{
+    /* border: 1px solid red; */
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul li span{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul li a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.navbar-header .menu-bot-layer .col-lg-3 h5:hover{
+    color: #a99149;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul li a:hover{
+    color: #a99149;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul li span:hover{
+    color: #a99149;
+}
+/* ---------- button --------- */
+.navbar-header .menu-bot-layer .col-lg-3 ul.btn-icon{
+    height: 60%;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul.btn-icon li{
+    margin-bottom: 5px;
+
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul li #submit{
+    width: 90%;
+    text-align: left;
+    background-color: #42719f;
+    border: 0px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul li #submit i{
+    padding-left: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul.btn-icon li #submit:hover{
+    background-color: #fff;
+    color: #024282;
+}
+.navbar-header .menu-bot-layer .col-lg-3 ul.btn-icon li #submit:hover i{
+    color: #024282;
+}

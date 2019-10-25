@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.news {
+    padding: 0px !important;
+	padding-top : 15px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.news .row{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #252525;
+    margin-left: 15px;
+}
+h4{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000000;
+}
+h4:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000000;
+}
+a{
+    font-size: 13px;
+    font-weight: 700px;
+    line-height: 22px;
+    color: #024282;
+}

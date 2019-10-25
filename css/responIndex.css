@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px){
+    .whyChoose .slick1 .slick-slide {
+        padding: 10px 5px;
+    }
+}
+
+
+/* @media screen and (max-width: 575px){
+    .sub-slider{
+        width: 100% !important;
+    }
+} */
