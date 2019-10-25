@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*=========== navbar ==================== */
+.navbar{
+    background-color: white !important;
+}
+.navbar-collapse .navbar-nav{
+    padding-left: 10px;
+}
+.navbar-collapse .navbar-nav li.nav-item{
+    margin-right: 10px;
+}
+.navbar-collapse .navbar-nav li.nav-item:hover a{
+    color: #0069D9;
+}
+/* ========================================
+=========== main =====================
+======================================== */
+main{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+/*=========== method-left ==================== */
+.method-left .btn-group-vertical{
+    width: 100%;
+    background-color: #fff;
+    color: black;
+}
+.method-left .btn-group-vertical .btn:hover{
+    color: #fff;
+    font-weight: 700;
+    background-color: #0069D9;
+}
+.method-left .btn-group-vertical .btn:focus{
+    color: #fff;
+    font-weight: 700;
+    background-color: #0069D9;
+}
+.hello{
+    text-align: center;
+    padding: 10px 0px;
+}
+.info{
+    text-align: center;
+    margin:0px 0px 15px 0px;
+}
+.info .username{
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: 700;
+}
+.avatar{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("../avt/vodanh.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+/*=========== content-right ==================== */
+/* .content-right >.row{
+    position: relative;
+}*/
+
+.addPost form#addForm{
+    display: none;
+}
+form#updateForm{
+    display: none;
+}
+form#deleteForm{
+    display: none;
+}
+.content-right .titlePage{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+form button{
+    text-align: center;
+}

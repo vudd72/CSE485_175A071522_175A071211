@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ===================== LOGIN ACC================ */
+.front-login{
+    background-image: url("../imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row-intro{
+    padding-top: 80px;
+}
+.intro{
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+    color: azure;
+}
+.row-form{
+    margin-top: 20px;
+    padding-bottom: 102px;
+}
+.login{
+    margin: auto;
+    text-align: center;
+}
+.login form{
+    text-align: left;
+    width: 350px;
+    margin: auto;
+}
+form .submit-login{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px !important;
+    margin: auto;
+}
+form .submit-create{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+form .link{
+    text-align: center;
+}
+form .link a{
+    display: block;
+    margin: 0px;
+    padding-left: 0px;
+    color: azure;
+    font-size: 12px;
+}
+form .link a:hover{
+    color: azure;
+}
+.form-group label{
+    display: inline-block;
+    font-weight: 700;
+    color: azure;
+}
+.form-group input{
+    display: inline-block;
+}
+/* ===================== END ================ */
+
+.announce{
+    display: block;
+    margin-top: 20px;
+    padding-left: 0px;
+    color: azure;
+    font-size: 14px;
+}
+.announce:hover{
+    cursor: pointer;
+}
+/* ===================== CREATE ACC ================ */
+.create{
+    margin: auto;
+    text-align: center;
+}
+.create form{
+    text-align: left;
+    width: 350px;
+    margin: auto;
+}
+form .submit-create-acc{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+form .link{
+    text-align: center;
+}
+form .link a{
+    display: block;
+    margin: 0px;
+    padding-left: 0px;
+    color: azure;
+    font-size: 12px;
+}
+form a:hover{
+    color: azure;
+}
+.form-group label{
+    display: inline-block;
+    font-weight: 700;
+    color: azure;
+}
+.form-group input{
+    display: inline-block;
+}
+/* ===================== END ================ */
